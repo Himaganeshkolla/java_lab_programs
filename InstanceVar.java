@@ -1,5 +1,3 @@
-package Exer_3;
-
 public class InstanceVar {
     public static void main(String[] args) {
         MainClass m = new MainClass();
@@ -28,11 +26,3 @@ class InheritedClass {
         System.out.println("(InheritedClass) Inherited class (a) = " + a);
     }
 }
-/*
- * Output
- * (InheritedClass) Inherited class (this.a) = 51
- * (InheritedClass) Inherited class (a) = 51
- * (MainClass) Main class (a) = 45
- * (MainClass) Main class (this.a) = 45
- * (MainClass) Inherited class (super.a) = 51
- */
