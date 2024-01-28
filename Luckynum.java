@@ -1,5 +1,3 @@
-package Exer_1;
-
 import java.util.*;
 
 public class LuckyNumber {
@@ -41,10 +39,3 @@ public class LuckyNumber {
     }
 
 }
-/*
- * Output:-
- * Element 1: 7
- * Element 2: 28
- * Element 3: 343
- * No.of Lucky Numbers: 2
- */
