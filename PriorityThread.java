@@ -1,5 +1,3 @@
-package Exer_7;
-
 public class PriorityThread {
     public static void main(String[] args) {
         MyThread t1 = new MyThread("Thread 1", Thread.NORM_PRIORITY);
@@ -22,10 +20,3 @@ class MyThread extends Thread {
         System.out.println(currentThread().getName());
     }
 }
-
-/*
- * Output:-
- * Thread 2
- * Thread 3
- * Thread 1
- */
