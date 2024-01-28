@@ -1,5 +1,3 @@
-package Exer_4;
-
 import java.util.*;
 
 public class PolygonArea {
@@ -27,18 +25,12 @@ public class PolygonArea {
         }
         sc.close();
     }
-
-    // Square area
     static void area(double sideLength) {
         System.out.println(sideLength * sideLength);
     }
-
-    // Rectangle area
     static void area(double height, double width) {
         System.out.println(height * width);
     }
-
-    // Triangle area
     static void area(double side1, double side2, double side3) {
         double s = (side1 + side2 + side3) / 2;
         double ar = s * (s - side1) * (s - side2) * (s - side3);
@@ -49,23 +41,3 @@ public class PolygonArea {
     }
 
 }
-/*
- * Output: -
- * Enter your choice
- * 1.Square 2.Rectangle 3.Trinagle 4.Exit:
- * choice: 1
- * Enter side length of sqaure: 6
- * 36.0
- * 
- * Enter your choice
- * 1.Square 2.Rectangle 3.Trinagle 4.Exit:
- * choice: 2
- * Enter length, width of rectangle: 4 5
- * 20.0
- * 
- * Enter your choice
- * 1.Square 2.Rectangle 3.Trinagle 4.Exit:
- * choice: 3
- * Enter 3 sides of triangle: 4 7 6
- * 143.4375
- */
