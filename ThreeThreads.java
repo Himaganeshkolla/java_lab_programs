@@ -1,7 +1,4 @@
-package Exer_7;
-
 public class ThreeThreads {
-
     public static void main(String[] args) {
         GM t1 = new GM();
         Hello t2 = new Hello();
@@ -54,58 +51,3 @@ class Welcome extends Thread {
     }
 
 }
-/*
- * Output:-
- * Good Morning
- * Hello
- * Good Morning
- * Welcome...!
- * Good Morning
- * HelloGood Morning
- * Good Morning
- * Welcome...!
- * Hello
- * Good Morning
- * Good Morning
- * Hello
- * Good Morning
- * Welcome...!
- * Good Morning
- * Hello
- * Good Morning
- * Good Morning
- * Welcome...!
- * Hello
- * Good Morning
- * Good Morning
- * Hello
- * Good Morning
- * Welcome...!
- * Good Morning
- * Hello
- * Good Morning
- * Good Morning
- * Welcome...!
- * Hello
- * Good Morning
- * Good Morning
- * Hello
- * Good Morning
- * Welcome...!
- * Good Morning
- * Hello
- * Good Morning
- * Good Morning
- * Welcome...!
- * Hello
- * Good Morning
- * Good Morning
- * Hello
- * Good Morning
- * Welcome...!
- * .......
- * .......
- * .......
- * .......
- * 
- */
