@@ -1,5 +1,3 @@
-package Exer_3;
-
 public class TomAndJerry {
     public static void main(String[] args) {
 
@@ -87,31 +85,3 @@ class TempClass {
         this.tj = tj;
     }
 }
-/*
- * Output:-
- * Call by Value:
- * 
- * Before Swapping:
- * Tom has 51 apples, Jerry has 45 apples
- * 
- * Before Swapping (Inside):
- * Tom has 51 apples, Jerry has 45 apples
- * After Swapping (Inside):
- * Tom has 45 apples, Jerry has 51 apples
- * 
- * After Swapping:
- * Tom has 51 apples, Jerry has 45 apples
- * 
- * Call by Reference:
- * 
- * Before Swapping:
- * Tom has 51 apples, Jerry has 45 apples
- * 
- * Before Swapping (Inside):
- * Tom has 51 apples, Jerry has 45 apples
- * After Swapping (Inside):
- * Tom has 45 apples, Jerry has 51 apples
- * 
- * After Swapping:
- * Tom has 45 apples, Jerry has 51 apples
- */
